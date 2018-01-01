@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0">
- 	<modelVersion>4.0.0</modelVersion>
+<!--
+
+    MIT License
+
+    Copyright (c) 2017 Montana State University, Gianforte School of Computing
+    Software Engineering Laboratory
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 	<groupId>edu.montana.gsoc.msusel</groupId>
 	<artifactId>msusel-parent</artifactId>
-	<version>${msusel.version}</version>
+	<version>1.1.1</version>
 	<packaging>pom</packaging>
 	<name>MSUSEL Parent POM</name>
-    <organization>
-        <name>Montana State University - Software Engineering Laboratory</name>
-        <url>https://msusel.github.io</url>
-    </organization>
+  <organization>
+    <name>Montana State University - Software Engineering Laboratory</name>
+    <url>https://msusel.github.io</url>
+  </organization>
 
-	<description>SonarQube frontend for MSUSEL Plugins</description>
+	<description>MSUSEL Parent Project</description>
 
 	<licenses>
 		<license>
@@ -22,23 +50,8 @@
 		</license>
 	</licenses>
 
-	<developers>
-		<developer>
-			<id>isaac.griffith</id>
-			<name>Isaac Griffith</name>
-			<email>isaacgriffith@gmail.com</email>
-			<organization>MSUSEL</organization>
-			<organizationUrl>https://msusel.github.io/</organizationUrl>
-			<roles>
-				<role>Developer</role>
-			</roles>
-		</developer>
-	</developers>
-
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-		<sonar.buildVersion>5.6.5</sonar.buildVersion>
 		<jdk.min.version>1.8</jdk.min.version>
 		<msusel.version>1.1.1</msusel.version>
 	</properties>
@@ -67,7 +80,7 @@
         <dependency>
             <groupId>commons-cli</groupId>
             <artifactId>commons-cli</artifactId>
-            <version>1.3</version>
+            <version>1.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
@@ -96,7 +109,7 @@
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
-            <version>2.5</version>
+            <version>2.8.0</version>
         </dependency>
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
@@ -106,7 +119,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-csv</artifactId>
-            <version>1.2</version>
+            <version>1.4</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -241,7 +254,7 @@
                 <enabled>false</enabled>
             </snapshots>
 
-            <url>https://raw.github.com/MSUSEL/msusel-maven-repo.git/master</url>
+            <url>https://raw.github.com/MSUSEL/msusel-maven-repo/releases</url>
         </repository>
     </repositories>
     <pluginRepositories>

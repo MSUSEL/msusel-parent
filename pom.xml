@@ -15,7 +15,6 @@
     </organization>
 
     <description>MSUSEL Parent Project</description>
-
     <licenses>
         <license>
             <name>The MIT License (MIT)</name>
@@ -24,11 +23,19 @@
         </license>
     </licenses>
 
+<<<<<<< HEAD
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.min.version>1.8</jdk.min.version>
         <msusel.version>1.1.1</msusel.version>
     </properties>
+=======
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jdk.min.version>1.8</jdk.min.version>
+		<msusel.version>1.1.1</msusel.version>
+	</properties>
+>>>>>>> b96492ffeda562b7aa1479488ecd119b2d4c3ca1
 
     <dependencies>
         <dependency>
@@ -93,7 +100,11 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-csv</artifactId>
+<<<<<<< HEAD
             <version>1.5</version>
+=======
+            <version>1.4</version>
+>>>>>>> b96492ffeda562b7aa1479488ecd119b2d4c3ca1
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -224,6 +235,13 @@
                         <format>html</format>
                         <format>xml</format>
                     </formats>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
                 </configuration>
             </plugin>
         </plugins>

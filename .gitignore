@@ -11,6 +11,8 @@
 /build.sh
 /deploy.sh
 *.iml
+/.mvn
+/.idea
 
 pom.xml.tag
 pom.xml.releaseBackup

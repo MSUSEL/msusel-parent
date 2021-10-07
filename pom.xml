@@ -25,7 +25,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jdk.min.version>11</jdk.min.version>
+        <jdk.min.version>17</jdk.min.version>
         <msusel.version>1.1.1</msusel.version>
         <activejdbc.version>2.3</activejdbc.version>
         <environments>development,development.test</environments>
@@ -137,18 +137,18 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.8</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-sql</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.8</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-yaml</artifactId>
-            <version>3.0.3</version>
+            <version>3.0.8</version>
         </dependency>
 
         <dependency>

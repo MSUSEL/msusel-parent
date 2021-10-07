@@ -27,7 +27,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.min.version>11</jdk.min.version>
         <msusel.version>1.1.1</msusel.version>
-        <activejdbc.version>2.3</activejdbc.version>
+        <activejdbc.version>2.5-j8</activejdbc.version>
         <environments>development,development.test</environments>
     </properties>
 

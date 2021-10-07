@@ -329,12 +329,12 @@
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
+                <version>3.0.0-M5</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>${jdk.min.version}</source>
                     <target>${jdk.min.version}</target>
@@ -343,7 +343,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
-                <version>2.4</version>
+                <version>2.7</version>
                 <configuration>
                     <instrumentation>
                         <excludes>
@@ -359,7 +359,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.22.2</version>
+                <version>3.0.0-M5</version>
                 <executions>
                     <execution>
                         <id>integration-test</id>
@@ -378,7 +378,7 @@
             <plugin>
                 <groupId>com.mycila</groupId>
                 <artifactId>license-maven-plugin</artifactId>
-                <version>3.0</version>
+                <version>4.1</version>
                 <configuration>
                     <header>LICENSE</header>
                     <properties>
@@ -408,7 +408,7 @@
             <plugin>
                 <groupId>org.codehaus.gmavenplus</groupId>
                 <artifactId>gmavenplus-plugin</artifactId>
-                <version>1.8.1</version>
+                <version>1.13.0</version>
                 <executions>
                     <execution>
                         <id>groovy-site</id>
@@ -438,7 +438,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
-                <version>3.3</version>
+                <version>3.9.1</version>
                 <configuration>
                     <skipDeploy>true</skipDeploy>
                 </configuration>
@@ -517,7 +517,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
-                <version>2.4</version>
+                <version>2.7</version>
                 <configuration>
                     <formats>
                         <format>html</format>

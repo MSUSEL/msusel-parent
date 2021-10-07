@@ -29,6 +29,7 @@
         <msusel.version>1.1.1</msusel.version>
         <activejdbc.version>3.0-j11</activejdbc.version>
         <environments>development,development.test</environments>
+        <groovy.version>3.0.9</groovy.version>
     </properties>
 
     <dependencies>
@@ -137,18 +138,18 @@
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
-            <version>3.0.8</version>
+            <version>${groovy.version}</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-sql</artifactId>
-            <version>3.0.8</version>
+            <version>${groovy.version}</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-yaml</artifactId>
-            <version>3.0.8</version>
+            <version>${groovy.version}</version>
         </dependency>
 
         <dependency>
